@@ -22,11 +22,15 @@ main{
     height: 80%;
 }
 
-@media (max-width: 1440px){
+@media (min-width: 1440px){
     main{
         width: 100%;
         max-width: 1300px;
         margin: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -133,7 +137,7 @@ form #fname, form #lname, form #email, form #pw{
     font-weight: 600;
 }
 
-@media (max-width: 375px){
+@media (min-width: 375px) and (max-width:1440px){
     body{
         margin-top: 3em;
     }
@@ -164,7 +168,6 @@ form #fname, form #lname, form #email, form #pw{
         height: 80px;
         padding: 0 3em;
         display: flex;
-        flex-direction: column;
     }
     form{
         margin-bottom: 3.5em;
@@ -174,7 +177,13 @@ form #fname, form #lname, form #email, form #pw{
         padding: 0 20px 0 20px;
         height: 4em;
         display: flex;
-        flex-direction: column;
         font-size: 10px;
+    }
+}
+
+@media(max-width:375px){
+    #right div, #terms{
+        display:flex;
+        flex-direction: column;
     }
 }
