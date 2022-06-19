@@ -125,6 +125,7 @@ form #fname, form #lname, form #email, form #pw{
     color: grey;
     font-size: 14px;
     white-space: nowrap;
+    padding: 0 40px 0;
 }
 
 #terms span{
