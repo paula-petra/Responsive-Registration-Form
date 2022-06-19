@@ -151,6 +151,10 @@ form #fname, form #lname, form #email, form #pw{
     }
 
     #left p{
-        width:;
+        padding: 0 12px;
+        margin-bottom: 3.5em;
+    }
+    #terms{
+        padding: 0 20px;
     }
 }
