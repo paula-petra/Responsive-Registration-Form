@@ -79,6 +79,7 @@ form{
     border-radius: 8px;
     margin-bottom: 5px;
     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
 }
 
 #right span{
@@ -123,6 +124,7 @@ form #fname, form #lname, form #email, form #pw{
     margin-top: 0;
     color: grey;
     font-size: 14px;
+    white-space: nowrap;
 }
 
 #terms span{
@@ -131,6 +133,9 @@ form #fname, form #lname, form #email, form #pw{
 }
 
 @media (max-width: 375px){
+    body{
+        margin-top: 3em;
+    }
     main{
         width: 90%;
         display: flex;
@@ -152,6 +157,13 @@ form #fname, form #lname, form #email, form #pw{
 
     #left p{
         padding: 0 12px;
+        margin-bottom: 3.5em;
+    }
+    #right div{
+        height: 80px;
+        padding: 0 3em;
+    }
+    form{
         margin-bottom: 3.5em;
     }
     #terms{
